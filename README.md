@@ -26,5 +26,14 @@ We wish to build and train a neural network that takes in the T1 weighted MRI as
 
 # Results
 
-![Screenshot](/images/BiasField.png)
+**Input MRI images:**
 
+![BiasField](/images/Input.png)
+
+**Reconstructed Bias Field:**
+
+![BiasField](/images/BiasField.png)
+
+**Corrected MRI images:**
+
+![BiasField](/images/Corrected.png)
