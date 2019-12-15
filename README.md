@@ -3,13 +3,12 @@
 
 # Description:
 
-Generally, T1-weighted MRIs exhibits an intensity non-uniformity due to imperfections in the field coils or due to changes in the magnetic susceptibility. This non-uniformity can confuse the tissue classifiers in the pre-processing stage, as they assume uniform intensities for a tissue. Therefore, it is necessary to remove this non-uniformity before the tissue classification is performed. This non-uniformity is also called as the Bias Field.
+Generally, T1-weighted MRIs exhibit an intensity non-uniformity due to imperfections in the field coils or due to changes in the magnetic susceptibility. This non-uniformity can confuse the tissue classifiers in the pre-processing stage, as they assume uniform intensities for a tissue. Therefore, it is necessary to remove this non-uniformity before the tissue classification is performed. This non-uniformity is also called as the Bias Field. Traditionally, non-uniformity correction is done through mathematical curve fitting techniques. These methods are found to be inefficient when a high amount of non-uniformity is present in MRIs.
 
-Traditionally, non-uniformity correction is done through mathematical curve fitting techniques. This method is found to be inefficient when a high amount of non unoformity exists in MRIs. So, we try to solve this problem using Deep Learning Techniques. In recent years, Deep Learning techniques have found to efficient in solving problems related to Image reconstruction and segmentation.  
 
 # Goal
 
-Train a Convolutional Neural Network(CNN) based autoencoder by performing Data Augmentation techniques and analyze the predicted bias fields and corrected MRIs using Brain Suite Software. 
+In recent years, Deep Learning techniques have found to efficient in solving problems related to Image reconstruction and segmentation. We try to solve our problem using Deep Learning Techniques. We Train a Convolutional Neural Network(CNN) based autoencoder by performing Data Augmentation techniques on the existing dataset. We, then, analyze the predicted bias fields and corrected MRIs using Brain Suite Software. 
 
 
 # Dataset
