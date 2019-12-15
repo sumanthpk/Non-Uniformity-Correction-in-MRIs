@@ -26,5 +26,5 @@ We wish to build and train a neural network that takes in the T1 weighted MRI as
 
 # Results
 
-![Screenshot](images/Input\ Images.png)
+![Screenshot](Input.png)
 
