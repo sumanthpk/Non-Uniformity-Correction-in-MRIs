@@ -16,7 +16,7 @@ Train a Convolutional Neural Network(CNN) based autoencoder by performing Data A
 
 This data has 40 T1 weighted MRIs and their corresponding Bias fields. Corrected MRIs can be obtained by dividing the input images with their bias field image. Both the input images and labels are 3d images and dimensions are given below.
 
-Input MRI: 260 x 311 x 260 
+Input MRI: 260 x 311 x 260;   
 Output Bias: 260 x 311 x 260 
 
 Since neural networks require huge amount of data, we augment the current dataset. This is done by multiplying each label (bias field) with the corrected images to obtained 40 input images with this label. By doing this for each label we obtain a total of 1600 input images. All the dataset are available here:
@@ -28,15 +28,20 @@ Since neural networks require huge amount of data, we augment the current datase
 
 The analysis and implementation has been done using Python 3.6 version. The versions of the external libraries used are as mentioned below:
 
-NumPy == 1.16.4
-Matplotlib == 3.0.3
-Scikit-Learn == 0.21.1
-Nibabel >= 2.0.2
-Nilearn (!pip install nilearn)
+NumPy == 1.16.4 ;
+Matplotlib == 3.0.3;
+Scikit-Learn == 0.21.1;
+Nibabel >= 2.0.2;
+Nilearn (!pip install nilearn).
 
 *Augmentation.ipynb*: Used for Augmenting the dataset and storing the datasets as .npz
 *Augment_training.ipynb*: Used for training the neural network with custom dataloader.
 *Augmentation_Reconstruction.ipynb*: Used for reconstructing the corrected images from the predicted bias.
+
+The data folder contains sample .npz files used for training.
+The models folders has trained models that can be used for testing.
+The images folder has input, output and corrected mri. They are displayed below.
+
 
 
 # Training Procedure
