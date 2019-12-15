@@ -18,7 +18,10 @@ This data has 40 T1 weighted MRIs and their corresponding Bias fields. Corrected
 Input MRI: 260 x 311 x 260 
 Output Bias: 260 x 311 x 260 
 
-Since neural networks require huge amount of data, we augment the current dataset. This is done by multiplying each label (bias field) with the corrected images to obtained 40 input images with this label. By doing this for each label we obtain a total of 1600 input images.
+Since neural networks require huge amount of data, we augment the current dataset. This is done by multiplying each label (bias field) with the corrected images to obtained 40 input images with this label. By doing this for each label we obtain a total of 1600 input images. All the dataset are available here:
+
+**Link : (https://drive.google.com/open?id=19rREknauQ4stxaLp_Fa7M7cb7uU1s8NJ)**
+
 
 # Training Procedure
 
