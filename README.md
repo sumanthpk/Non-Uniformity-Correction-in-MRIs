@@ -26,4 +26,4 @@ We wish to build and train a neural network that takes in the T1 weighted MRI as
 
 # Results
 
-![Image of ](https://github.com/sumanthpk/Non-Uniformity-Correction-in-MRIs/images/Input\ Images.png)
+![Image of input](/images/Input Images.png)
