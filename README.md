@@ -59,3 +59,7 @@ We wish to build and train a neural network that takes in the T1 weighted MRI as
 ![BiasField](/images/Corrected.png)
 
 Brainsuite software has been used for visualization of the above images. It can be downloaded from the website below:  http://brainsuite.org
+
+# Future Work:
+
+Explore for a deeper network architectures that can perform better than the existing network. In addition to this, dataset can further be augmented by using different combinations of existing labels as bias fields. These bias fields can be multiplied with corrected images to generate input images. 
